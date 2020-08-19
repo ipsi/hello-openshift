@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - image: ec.gcr.io/labs-athorburn/hello-openshift
+        - image: eu.gcr.io/labs-athorburn/hello-openshift
           env:
             - name: RESPONSE
               value: "Hello Serverless!"
